@@ -32,6 +32,7 @@ class BestSellerBooksRecyclerViewAdapter(
         val mBookTitle: TextView = mView.findViewById<View>(id.book_title) as TextView
         val mBookAuthor: TextView = mView.findViewById<View>(id.book_author) as TextView
 
+
         override fun toString(): String {
             return mBookTitle.toString() + " '" + mBookAuthor.text + "'"
         }
